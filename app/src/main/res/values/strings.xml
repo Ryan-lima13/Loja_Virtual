@@ -8,4 +8,5 @@
     <string name="txt_tela_cadastro">Não tem conta? cadastre-se agora</string>
     <string name="titulo_tela_cadastro">Faça seu Cadastro</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="carregando">Carregando</string>
 </resources>

@@ -4,10 +4,14 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthUserCollisionException
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException
 import com.google.firebase.ktx.Firebase
 import com.rlds.lojavirtual.R
 import com.rlds.lojavirtual.databinding.ActivityFormCadastroBinding
+import model.DB
 
 class FormCadastro : AppCompatActivity() {
     private lateinit var binding:ActivityFormCadastroBinding
@@ -16,6 +20,7 @@ class FormCadastro : AppCompatActivity() {
         binding = ActivityFormCadastroBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar!!.hide()
+        val db  = DB()
         binding.btCadastrar.setOnClickListener {
 
             val nome = binding.txtNome.text.toString()
@@ -36,6 +41,7 @@ class FormCadastro : AppCompatActivity() {
                     email, senha
                 ).addOnCompleteListener { tarefa ->
                     if (tarefa.isSuccessful){
+                        db.salvar(nome)
                         val snakbar = Snackbar.make(
                             it, "Usuario cadastrado com sucesso!",
                             Snackbar.LENGTH_SHORT
@@ -44,6 +50,20 @@ class FormCadastro : AppCompatActivity() {
                         snakbar.show()
 
                     }
+                }.addOnFailureListener { erroCadastro ->
+                    val mensagemErro = when(erroCadastro){
+                        is FirebaseAuthWeakPasswordException ->"Digite uma senha com no mínimo 6 caracteres"
+                        is FirebaseAuthUserCollisionException ->"Esta conta ja foi cadastrada"
+                        is FirebaseNetworkException ->"Sem conexão com a internet"
+                        else -> "Erro ao cadastrar usuário"
+                    }
+                    val snackbar = Snackbar.make(
+                        it, mensagemErro, Snackbar.LENGTH_SHORT
+                    )
+                    snackbar.setBackgroundTint(Color.RED)
+                    snackbar.setTextColor(Color.WHITE)
+                    snackbar.show()
+
                 }
 
             }

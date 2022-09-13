@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Loja Virtual</string>
+    <string name="nome_loja"><b><font color = "#067CDA">Loja</font></b> Virtual</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="txt_button_login">Entrar</string>
+    <string name="txt_tela_cadastro">Não tem conta? cadastre-se agora</string>
 </resources>

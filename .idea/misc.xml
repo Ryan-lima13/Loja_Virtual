@@ -5,10 +5,15 @@
       <map>
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/bg_edit_tex.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/conatiner_formulario.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_deslogar.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_menu_lateral.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_pedidos.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_perfil.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_form_cadastro.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_form_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_tela_produtos.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/dialog_carregando.xml" value="0.33" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/menu/menu_principal.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>

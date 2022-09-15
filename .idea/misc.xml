@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/bg_edit_tex.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/bg_radio_normal.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/bg_radio_selecionado.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/circulo_imagem_perfil.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/conatiner_formulario.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_deslogar.xml" value="0.1225" />
@@ -12,9 +14,12 @@
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_nome_usuario.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_pedidos.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/ic_perfil.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/radio_selector.xml" value="0.1225" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/drawable/radio_text_color.xml" value="0.1225" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_detahes_produtos.xml" value="0.25" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_form_cadastro.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_form_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_pagamento.xml" value="0.25" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/activity_tela_produtos.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/dialog_carregando.xml" value="0.33" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/LojaVirtual/app/src/main/res/layout/dialog_perfil_usuario.xml" value="0.33" />

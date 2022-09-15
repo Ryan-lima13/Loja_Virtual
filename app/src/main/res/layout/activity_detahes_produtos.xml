@@ -18,7 +18,7 @@
         android:id="@+id/dt_nomeProduto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Detahes"
+        android:text=""
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -45,33 +45,73 @@
         android:layout_marginTop="10dp"
         >
         <RadioButton
+            android:id="@+id/txt_38"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="38"
+            android:text="@string/txt_38"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/px_transparent"
+            android:layout_marginEnd="10dp"
 
             />
         <RadioButton
+            android:id="@+id/txt_39"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="39"
+            android:text="@string/txt_39"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/px_transparent"
+            android:layout_marginEnd="10dp"
 
             />
         <RadioButton
+            android:id="@+id/txt_40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="40"
+            android:text="@string/txt_40"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/px_transparent"
+            android:layout_marginEnd="10dp"
 
             />
         <RadioButton
+            android:id="@+id/txt_41"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="41"
+            android:text="@string/txt_41"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/px_transparent"
+            android:layout_marginEnd="10dp"
 
             />
         <RadioButton
+            android:id="@+id/txt_42"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="41"
+            android:text="@string/txt_42"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/px_transparent"
+            android:layout_marginEnd="10dp"
 
             />
 
@@ -90,7 +130,7 @@
         android:id="@+id/dt_precoProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 150,00"
+        android:text=""
         android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="@android:color/holo_green_dark"

@@ -15,5 +15,16 @@
     <string name="sair">Sair</string>
     <string name="escolha_tamanho">Escolha o tamanho</string>
     <string name="preco">Preço</string>
+    <string name="txt_38">38</string>
+    <string name="txt_39">39</string>
+    <string name="txt_40">40</string>
+    <string name="txt_41">41</string>
+    <string name="txt_42">42</string>
     <string name="bt_finalizar">Finalizar Pedido</string>
+    <string name="titulo_tela_pagamento">Preencha todos os campos antes de fazer o pagamento</string>
+    <string name="bairro">Bairro</string>
+    <string name="rua_e_numero">Rua e Número</string>
+    <string name="cidade">Cidade e Estado</string>
+    <string name="celular">Celular</string>
+    <string name="bt_pagamento">Fazer Pagamento</string>
 </resources>
